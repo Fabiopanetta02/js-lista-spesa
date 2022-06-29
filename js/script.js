@@ -5,7 +5,7 @@ const items = ['Uova', 'Pane', 'Latte', 'Biscotti', 'Pasta', 'Affettati', 'Forma
 //2- STAMPO IN PAGINA GLI ELEMENTI DELLA ARRAY CON IL CICLO FOR E L'USO DELLA STRINGA
 // const ulSpesa = document.getElementById('ulspesa');
 
-// // ! CICLO FOR METODO STRINGA//
+// ! CICLO FOR METODO STRINGA//
 // let itemsSpesa = '';
 
 // for (let i = 0; i < items.length; i++) {
@@ -13,6 +13,19 @@ const items = ['Uova', 'Pane', 'Latte', 'Biscotti', 'Pasta', 'Affettati', 'Forma
 // }
 
 // ulSpesa.innerHTML = itemsSpesa;
+
+
+//  ! CICLO FOR METODO DOM API//
+// const ulSpesa = document.getElementById('ulspesa');
+
+// let i = 0;
+// while(i < items.length){
+//     const listItem = document.createElement('li');
+//     listItem.append(items[i]);
+//     ulSpesa.appendChild(listItem);
+
+//     i++
+// }
 
 
 
@@ -28,6 +41,4 @@ while(i < items.length){
     i++;
 }
 
-ulSpesa.innerHTML = itemsSpesa;
-
-
+ ulSpesa.innerHTML = itemsSpesa;
